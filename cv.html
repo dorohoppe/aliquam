@@ -57,6 +57,19 @@
   color: #e91e63;
 }
         
+         .mycontainer {
+        left:20%;
+         top:20%;
+         right:20% 
+  }       
+            @media screen and (max-width:800px) {
+  .mycontainer {
+    left:5%;
+    right:5%;
+  }
+}
+       
+        
     </style>
     </head>
 <!-- {% include head.html %} --> 
@@ -71,7 +84,7 @@
 <div class="w3-container" style="position: relative;background-color:#e91e63" >
         <div style="width:100%;height:150px;min-height:100px;float:right"></div>
 
-    <div class="w3-container w3-padding-large" style="position:absolute;left:20%;top:20%;right:20%;background-color:rgb(241, 235, 235)">
+    <div class="w3-container w3-padding-large mycontainer" style="position:absolute;background-color:rgb(241, 235, 235)">
         <h3 style="font-family:PT Mono">CV</h2>
         <h4 style="font-family:PT Mono">Education</h4>
         <table style="width:100%">
